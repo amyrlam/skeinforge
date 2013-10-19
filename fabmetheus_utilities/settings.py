@@ -503,7 +503,7 @@ def readSettingsFromText(repository, text):
 def saveAll():
 	"Save all the dialogs."
 	for globalRepositoryDialogValue in getGlobalRepositoryDialogValues():
-		print "Saving!!!!111111oneoneone"
+		# print "Saving!!!!111111oneoneone"
 		globalRepositoryDialogValue.save()
 
 def saveRepository(repository):
@@ -632,7 +632,7 @@ def temporaryApplyOverrides(repository):
 def writeSettings(repository):
 	"Write the settings to a file."
 	profilesDirectoryPath = archive.getProfilesPath(getProfileBaseName(repository))
-	print "WOOOP WOOOP", profilesDirectoryPath
+	# print "WOOOP WOOOP", profilesDirectoryPath
 	archive.makeDirectory(os.path.dirname(profilesDirectoryPath))
 	archive.writeFileText(profilesDirectoryPath, getRepositoryText(repository))
 	for setting in repository.preferences:
