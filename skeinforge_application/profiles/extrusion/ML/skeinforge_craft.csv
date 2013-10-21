@@ -15,7 +15,7 @@ cool	False
 dimension	False
 drill	False
 dwindle	False
-export	True
+export	False
 feed	False
 fill	False
 fillet	False
@@ -32,7 +32,7 @@ multiply	False
 oozebane	False
 outset	False
 preface	False
-raft	False
+raft	True
 scale	False
 skin	False
 skirt	False
