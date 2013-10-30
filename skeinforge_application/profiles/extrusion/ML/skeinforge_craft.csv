@@ -1,7 +1,7 @@
 Format is tab separated skeinforge craft settings.
 _Name                          	Value
 WindowPosition	600+0
-Open File for Craft	/Users/amyrlam/Dropbox/MatterFab Shared/amy/stl files/Cubeuntitled_mm.stl
+Open File for Craft	/Users/amyrlam/Dropbox/MatterFab Shared/amy/stl files/MiCoinMK2-2K_DSv03-M.stl
 alteration	False
 bottom	False
 carve	False
@@ -20,7 +20,7 @@ feed	False
 fill	False
 fillet	False
 flow	False
-home	False
+home	True
 hop	False
 inset	False
 jitter	False
@@ -37,7 +37,7 @@ scale	False
 skin	False
 skirt	False
 smooth	False
-speed	True
+speed	False
 splodge	False
 stretch	False
 temperature	False
