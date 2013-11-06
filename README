@@ -1,2 +1,11 @@
+For Skeinforge ML profile:
+- Delete "ML" folder directory at ~/.skeinforge > profiles > extrusion on your machine for a clean install.
+
+Latest and our modified Skeinforge version is on branch sf-50.
+
+All ML setting defaults: https://github.com/amyrlam/skeinforge/tree/sf-50/skeinforge_application/profiles/extrusion/ML
+
+###
+
 Enrique Perez's Skeinforge, stashed in git.
 http://fabmetheus.crsndoo.com/
